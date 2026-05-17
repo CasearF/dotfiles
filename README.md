@@ -19,10 +19,19 @@
 - fzf — 模糊查找,Ctrl+R 历史 / Ctrl+T 文件
 - bat — 带高亮的 cat
 
-## 字体
+## 字体(重要)
 
 终端需使用 Nerd Font(推荐 0xProto Nerd Font),否则图标显示为方块。
 字体装在本地机器,服务器端无需安装。
+
+eza 的图标由**本地终端**的字体渲染,**不需要在服务器上安装字体**。
+
+请在你本地用来 SSH 的机器上安装 **0xProto Nerd Font**:
+- 下载:https://github.com/ryanoasis/nerd-fonts/releases (找 0xProto)
+- 或 https://www.nerdfonts.com
+- 装好后,在终端设置里把字体设为 `0xProto Nerd Font`
+
+若图标显示为方块 □ 或问号,即本地字体未生效。
 
 ## 说明
 
