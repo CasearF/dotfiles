@@ -1,0 +1,37 @@
+#
+# This is not sourced during shell startup and is only used to configure zimfw.
+#
+
+# ==========================================
+# 1. 基础与环境模块 (Core & Environment)
+# ==========================================
+zmodule environment
+zmodule input
+zmodule termtitle
+zmodule utility
+
+# ==========================================
+# 2. Git 与工具增强 (Git & Utilities)
+# ==========================================
+zmodule git
+zmodule wfxr/forgit
+
+# ==========================================
+# 3. 提示词与主题 (Prompt & Theme)
+# ==========================================
+zmodule duration-info
+zmodule git-info
+zmodule romkatv/powerlevel10k
+
+# ==========================================
+# 4. 补全模块 (Completion) - 必须在普通模块之后
+# ==========================================
+zmodule zsh-users/zsh-completions --fpath src
+zmodule completion
+
+# ==========================================
+# 5. 必须最后初始化的模块 (Must be initialized last)
+# ==========================================
+zmodule zsh-users/zsh-syntax-highlighting
+zmodule zsh-users/zsh-history-substring-search
+zmodule zsh-users/zsh-autosuggestions

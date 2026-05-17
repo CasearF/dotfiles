@@ -1,0 +1,7 @@
+# 强制所有文件使用 LF 换行,避免 Windows CRLF 污染 shell 配置
+*           text=auto eol=lf
+*.sh        text eol=lf
+.zshrc      text eol=lf
+.zimrc      text eol=lf
+.zshenv     text eol=lf
+.p10k.zsh   text eol=lf
